@@ -1,0 +1,17 @@
+Read me:
+
+This program is being designed for investigators that do not have time
+to memorize every single cryptocurrency address and character length.
+At any given time, there are over 2,000 active cryptocurrencies and it
+will significatly help investigators understand which cryptocurrency
+they are investigating.
+
+Unfortunately, due to the inherent protocols that cryptocurrencies are
+designed with, many of them will begin with the same characters and have
+the same character length. I am hoping to develop a program that will help
+alleviate the issue of identifying this with this all inclusive program as well.
+
+I am looking for help developing this. As this is my first project, I code
+rather slow and need time to learn and understand how to better the flow
+of my code as I go. Please contact me at ktpoorman@ua.edu if you would 
+like to help me.
