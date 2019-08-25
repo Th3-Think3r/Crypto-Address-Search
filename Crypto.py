@@ -24,9 +24,9 @@ if wallet.startswith('3') and len(wallet) == 34:
     print('Bitcoin (BTC) SegWit; For more information about this address, visit https://blockchain.com/btc/address/' + wallet)
     print('')
     print('Litecoin (LTC) SegWit; For more information about this address, visit https://live.blockcypher.com/ltc/address/' + wallet)
-if wallet.startswith('bc1') and len(wallet) == 42:
+if wallet.startswith('bc1') == 42:
     print('')
-    print('Bitcoin (BTC); For more information about this address, visit https://btc.com/' + wallet)
+    print('Bitcoin (BTC); For more information about this address, visit https://chain.so/address/BTC/' + wallet)
 if wallet.startswith('4') and len(wallet) == 95:
     print('')
     print('Monero (XMR); The monero blockchain will require a transaction ID (TX ID).')
@@ -43,13 +43,15 @@ if wallet.startswith('q'):
     print('Bitcoin Cash (BCH); For more information about this address, visit https://www.blockchain.com/bch/address/' + wallet)
 if wallet.startswith('D') and len(wallet) == 34:
     print('')
-    print('This address could be any of the following: Verge (XVG); Dogecoin (DOGE); DigiByte (DGB)')
+    print('This address could be any of the following: Verge (XVG); Dogecoin (DOGE); DigiByte (DGB); Pivx (PIVX)')
     print('')
     print('For XVG, visit https://verge-blockchain.info/address/' + wallet)
     print('')
     print('For DOGE, visit https://live.blockcypher.com/doge/address/' + wallet)
     print('')
     print('For DGB, visit https://chainz.cryptoid.info/dgb/address.dws?' + wallet)
+    print('')
+    print('Pivx (PIVX); For more information about this address, visit https://chainz.cryptoid.info/pivx/address.dws?' + wallet)
 if wallet.startswith('D') and len(wallet) == 104:
     print('')
     print('Cardano (ADA); For more information about this address, visit https://cardanoexplorer.com/address/' + wallet)
@@ -74,6 +76,9 @@ if wallet.startswith('A') and len(wallet) == 34:
     print('For NEO, visit https://neotracker.io/address/' + wallet)
     print('')
     print('For ARK, visit https://explorer.ark.io/wallets/' + wallet)
+if wallet.startswith('a') and len(wallet) == 34:
+    print('')
+    print('Zcoin (XZC); For more information, visit https://chainz.cryptoid.info/xzc/address.dws?' + wallet)
 if wallet.startswith('t') and len(wallet) == 35:
     print('')
     print('ZCash (ZEC); For more information about this address, visit https://chain.so/address/ZEC/' + wallet)
