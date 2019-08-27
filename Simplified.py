@@ -20,7 +20,7 @@ if len(wallet) == 34:
         print('')
         print('Bitcoin (BTC); For more information about this address, visit https://blockchain.com/btc/address/' + wallet)
         print('')
-        print('To check if address is associated with exchange visit: https://walletexplorer.com/wallet/' + wallet)
+        print('To check if address is associated with exchange visit: https://walletexplorer.com/address/' + wallet)
     if wallet.startswith('3'):
         print('')
         print('Bitcoin (BTC) SegWit; For more information about this address, visit https://blockchain.com/btc/address/' + wallet)
