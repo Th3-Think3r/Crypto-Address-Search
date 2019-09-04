@@ -114,5 +114,7 @@ if len(wallet) == 104:
 if wallet == 'exit':
     sys.exit()
 
-    #else: print('Could not determine, please be sure you copy and pasted the entire wallet into prompt before hitting enter.')
+else:
+    print('')
+    print('Could not determine, please be sure you copy and pasted the entire wallet into prompt before hitting enter.')
         
